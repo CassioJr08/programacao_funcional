@@ -1,4 +1,5 @@
 // map é responsavel por fazer trasnformações em elementos de uma array
+// sempre retornar uma array do mesmo tamanho
 
 const numbers = [1, 2, 3, 4, 5, 6]
 
