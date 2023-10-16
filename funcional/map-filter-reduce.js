@@ -14,8 +14,6 @@ const avg = (acc, el, i, array) =>{
         return acc + el
     }
 }
-
-
 console.log(
     students
         .filter(greatStudent) // filtra os melhores estudantes
