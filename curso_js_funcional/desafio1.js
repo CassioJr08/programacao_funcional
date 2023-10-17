@@ -28,3 +28,9 @@ const calcular = function(a) {
 const resultado2 = calcular(10)(5)(multiplicar)
 console.log(resultado2)
 
+
+// usando arrow function e if ternario
+const calcular2 = a => b => fn => typeof fn === 'function' ? fn(a,b) : 'Você não passou uma função valida'
+
+const resultado3 = calcular2(10)(10)(5)
+console.log(resultado3)
